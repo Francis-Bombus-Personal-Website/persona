@@ -15,3 +15,7 @@ h1 {
 .links {
     float: right;
 }
+
+* {
+    background-color: yellow;
+}
