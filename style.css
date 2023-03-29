@@ -1,0 +1,17 @@
+body {
+    background-color: #e4ae89;
+    
+}
+
+h1 {
+    color: black;
+}
+
+.name {
+    float: left;
+    color: rgb(3, 57, 12);
+}
+
+.links {
+    float: right;
+}
