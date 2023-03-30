@@ -1,21 +1,47 @@
-body {
-    background-color: #e4ae89;
-    
+/* Define the background colors for the header, body, and footer */
+
+header, footer {
+    width: 100%;
+    background: rgb(26, 69, 57);
 }
 
-h1 {
-    color: black;
+header {
+    box-shadow: 0 2px 4px -2px #000000;
+    height: 100px;
+    width: 100%;
+    font-weight: 50px;
 }
 
 .name {
-    float: left;
-    color: rgb(3, 57, 12);
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin: 0 auto;
 }
 
 .links {
-    float: right;
+    margin-right: 0.25em;
+    padding: 0px;
+    text-align: right;
+    color: rgb(1, 1, 1);
+    font-weight: 300;
+    font-family: sans-serif;
 }
 
-* {
-    background-color: yellow;
+main {
+    background: rgb(23, 195, 14);
+}
+
+footer {
+    
+    padding: 20px;
+    text-align: center;
+    height: 64px;
+    box-shadow: 0 -2px 2px -1px #000000;
+}
+
+.social-media a {
+    display: inline-block;
+    color: beige;
 }
