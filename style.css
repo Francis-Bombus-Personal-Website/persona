@@ -139,14 +139,27 @@ p {
 
 }
 
+ol {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 35px;
+	margin-top: 1px;
+	margin-left: 50px;
+	color: black;
+	text-align: left;
+	text-shadow: none;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 35px;
+	margin-inline-end: 35px;
+}
+
 footer {
 	background-color: purple;
 	color: white;
 	text-align: center;
 	padding: 20px;
 	
-
-
 }
 
 footer ul {
